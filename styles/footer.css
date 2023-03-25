@@ -1,0 +1,143 @@
+.rodape {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4em;
+    width: 83%;
+    gap: 1.5em;
+    justify-content: space-between;
+}
+
+.section__rodape__geral {
+    display: flex;
+}
+
+.section__rodape__geral__lista {
+    display: flex;
+    gap: 3.2em;
+}
+
+.section__rodape__geral__lista__item {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.section__rodape__geral__lista__link {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--fonte-cor-header);
+    text-decoration: none;
+}
+
+.section__rodape__geral__lista__itens {
+    display: flex;
+    gap: 0.5em;
+}
+
+.section__rodape__geral__lista__itens__coluna {
+    display: flex;
+    flex-direction: column;
+}
+
+.section__rodape__geral__lista__itens__titulo {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--fonte-cor-header);
+    text-decoration: none;
+}
+
+.section__rodape__geral__lista__itens__titulo__roxo {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--roxo);
+    text-decoration: none;
+}
+
+.section__rodape__geral__lista__itens__texto {
+    font-size: 12px;
+    color: var(--fonte-cor-header);
+    text-decoration: none;
+    margin-top: 0.5em;
+}
+
+.section__rodape__geral__lista__item__ultimo {
+    font-size: 12px;
+    color: var(--fonte-cor-header);
+    text-decoration: none;
+}
+
+.section__rodape__geral__lista__item__ultimo input {
+    margin-top: 0.5em;
+    padding: 0.5em;
+    border: 1px solid var(--preto);
+    border-radius: 0.2em;
+}
+
+.section__rodape__ultimo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+    font-size: 12px;
+    color: var(--fonte-cor-header);
+}
+
+@media screen and (min-width: 1650px) {
+    .section__rodape__geral__lista {
+        gap: 10em;
+    }
+
+    .section__rodape__geral__lista__link {
+        font-size: 24px;
+    }
+
+    .section__rodape__geral__lista__itens__titulo {
+        font-size: 28px;
+    }
+
+    .section__rodape__geral__lista__itens__texto {
+        font-size: 24px;
+    }
+
+    .section__rodape__geral__lista__itens__titulo__roxo {
+        font-size: 28px;
+    }
+
+    .section__rodape__geral__lista__itens__imagem img {
+        width: 2em;
+    }
+
+    .section__rodape__ultimo {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .rodape {
+        width: 79%;
+    }
+}
+
+@media screen and (max-width: 875px) {
+    .section__rodape__geral__lista__link {
+        font-size: 10px;
+    }
+
+    .section__rodape__geral__lista__itens__titulo {
+        font-size: 12px;
+    }
+
+    .section__rodape__geral__lista__item__ultimo input {
+        width: 100%;
+    }
+
+    .section__rodape__ultimo {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .section__rodape__geral__lista {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,196 @@
+.cabecalho__direita__icones__link:hover {
+    filter: brightness(0);
+}
+
+.cabecalho__direita__icones__texto__ultimo:hover {
+    color: var(--preto);
+}
+
+.primeira__section__direita__cima__azul:hover {
+    background-color: var(--fundo-azul);
+}
+
+.primeira__section__direita__cima__cinza:hover {
+    background-color: var(--fundo-cinza);
+    border: 1px solid var(--preto);
+}
+
+.primeira__section__direita__cima__img:hover {
+    border-radius: 50%;
+    padding: 0.5em;
+    background-color: var(--fundo-cinza);
+}
+
+.primeira__section__direita__baixo__texto:hover {
+    text-decoration:underline ;
+}
+
+.primeira__section__esquerda__baixo__lapis:hover {
+    border-radius: 50%;
+    background-color: var(--fundo-cinza);
+}
+
+.primeira__section__esquerda__baixo__links:hover {
+    text-decoration: underline;
+}
+
+.primeira__section__esquerda__baixo__botoes__interesse:hover {
+    background-color: var(--fundo-azul);
+}
+
+.primeira__section__esquerda__baixo__botoes__adicionar:hover {
+    background-color: var(--fundo-azul-claro);
+}
+
+.primeira__section__esquerda__baixo__botoes__mais:hover {
+    background-color: var(--fundo-cinza);
+    border: 1px solid var(--preto);
+}
+
+.primeira__section__esquerda__baixo__emprego__exibir:hover {
+    text-decoration: underline;
+}
+
+.primeira__section__esquerda__baixo__emprego img:hover {
+    background-color: var(--fundo-cinza);
+    border-radius: 50%;
+}
+
+.terceira__section__direita__lista__direita span:hover {
+    color: var(--azul-2);
+    text-decoration: underline;
+}
+
+.enviar:hover {
+    background-color: var(--fundo-cinza);
+    border: 1px solid var(--preto);
+}
+
+.conectar:hover {
+    background-color: var(--fundo-cinza);
+    border: 1px solid var(--preto);
+}
+
+.terceira__section__direita__exibir-mais:hover {
+    background-color: var(--fundo-cinza);
+}
+
+.segunda__section__esquerda__baixo__lista__item__escrita__link h3:hover {
+    color: var(--azul-2);
+    text-decoration: underline;
+}
+
+.terceira__section__esquerda__baixo__lista__item__escrita__cima h3:hover {
+    color: var(--azul-2);
+    text-decoration: underline;
+}
+
+.terceira__section__esquerda__baixo__lista__item__escrita__link h3:hover {
+    color: var(--azul-2);
+    text-decoration: underline;
+}
+
+.terceira__section__esquerda__recursos:hover {
+    background-color: var(--fundo-cinza);
+}
+
+.quarta__section__esquerda img:hover {
+    background-color: var(--fundo-cinza);
+    border-radius: 50%;
+}
+
+.quarta__section__esquerda__ultima__link:hover {
+    color: var(--azul-2);
+}
+
+.quinta__section__esquerda__primeira-linha__direita__criar:hover {
+    background-color: var(--fundo-azul-claro);
+}
+
+.quinta__section__esquerda__primeira-linha__direita img:hover {
+    background-color: var(--fundo-cinza);
+    border-radius: 50%;
+}
+
+.quinta__section__esquerda__segunda-linha p:hover {
+    text-decoration: underline;
+}
+
+.quinta__section__esquerda__terceira-linha__outros-botoes:hover {
+    background-color: var(--fundo-cinza);
+}
+
+.quinta__section__esquerda__quarta-linha__lista__item__curtidas__lado-esquerdo:hover {
+    color: var(--azul-2);
+    text-decoration: underline;
+}
+
+.quinta__section__esquerda__quarta-linha__lista__item__imagens:hover {
+    color: var(--azul-2);
+    text-decoration: underline;
+}
+
+.quinta__section__esquerda__quarta-linha__lista__item__curtidas__lado-direito a:hover {
+    color: var(--azul-2);
+}
+
+.quinta__section__esquerda__quarta-linha__lista__item__texto strong:hover {
+    text-decoration: underline;
+}
+
+.quinta__section__esquerda__quarta-linha__lista__item__texto span:hover {
+    color: var(--azul-2);
+}
+
+.sexta__section__esquerda__primeira-linha__direita img:hover {
+    background-color: var(--fundo-cinza);
+    border-radius: 50%;
+}
+
+.sexta__section__esquerda__segunda-linha__direita__instituicao:hover {
+    color: var(--azul-2);
+    text-decoration: underline;
+}
+
+.setima__section__esquerda__primeira-linha__direita__texto:hover {
+    background-color: var(--fundo-azul-claro);
+}
+
+.setima__section__esquerda__primeira-linha__direita img:hover {
+    background-color: var(--fundo-cinza);
+    border-radius: 50%;
+}
+
+.setima__section__esquerda__segunda-linha__lista__texto:hover {
+    color: var(--azul-2);
+    text-decoration: underline;
+}
+
+.oitava__section__esquerda__primeira-linha__direita img:hover {
+    background-color: var(--fundo-cinza);
+    border-radius: 50%;
+}
+
+.nona__section__esquerda__terceira-linha__workling__titulo:hover {
+    color: var(--azul-2);
+    text-decoration: underline;
+}
+
+.nona__section__esquerda__terceira-linha__workling__botao:hover {
+    background-color: var(--fundo-cinza);
+}
+
+.section__rodape__geral__lista__link:hover {
+    color: var(--azul-2);
+    text-decoration: underline;
+}
+
+.section__rodape__geral__lista__itens__titulo:hover {
+    color: var(--azul-2);
+    text-decoration: underline;
+}
+
+.section__rodape__geral__lista__itens__titulo__roxo:hover {
+    color: var(--roxo-escuro);
+    text-decoration: underline;
+}

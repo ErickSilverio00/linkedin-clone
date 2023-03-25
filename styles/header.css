@@ -1,0 +1,241 @@
+.cabecalho {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: right;
+    background-color: var(--branco);
+    border-bottom: 0.1px solid var(--cor-de-fundo);
+    box-shadow: var(--borda-sections);
+}
+
+.cabecalho-geral {
+    display: flex;
+    flex-direction: row;
+    gap: 8em;
+}
+
+.cabecalho__esquerda {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho__direita__icones__lupa {
+    display: none;
+}
+
+.cabecalho__esquerda__imagem {
+    margin-right: 0.3em ;
+}
+
+.cabecalho__esquerda__pesquisar {
+    display: flex;
+    align-items: center;
+    background-color: var(--input-cor-pesquisar);
+    border-radius: 0.3em;
+    width: 17em;
+    height: 65%;
+}
+
+.cabecalho__esquerda__pesquisar img {
+    margin-left: 1em;
+}
+
+.cabecalho__esquerda__rotulo {
+    background:none;
+    border: none;
+    outline: none;
+    margin-left: 0.5em;
+}
+
+.cabecalho__direita {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cabecalho__direita__icones {
+    display: flex;
+}
+
+.cabecalho__direita__icones__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 0.8em;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--fonte-cor-header);
+}
+
+.cabecalho__direita__icones__texto {
+    display: flex;
+    font-size: 12px;
+    margin-top: 0.5em;
+}
+
+.cabecalho__divisao {
+    height: 100%;
+    border-color: var(--cor-linhas);
+}
+
+.cabecalho__direita__icones__ultimo {
+    display: flex;
+    margin-left: 0;
+}
+
+.cabecalho__direita__icones__link__ultimo {
+    display: flex;
+    font-size: 11px;
+    width: 55%;
+    text-align: center;
+    line-height: 1.6em;
+    color: var(--premium-cor);
+}
+
+.cabecalho__direita__icones__texto__ultimo {
+    margin-top: 0;
+}
+
+.cabecalho__direita__icones__eu {
+    display: none;
+}
+
+.cabecalho__direita__icones__solucoes {
+    display: none;
+}
+
+.cabecalho__direita__icones__tres-pontos {
+    display: none;
+}
+
+@media screen and (min-width: 1650px) {
+    .cabecalho {
+        justify-content: center;
+    }   
+
+    .cabecalho__direita__icones__texto {
+        font-size: 20px;
+    }
+
+    .cabecalho__direita__icones__texto__ultimo {
+        font-size: 20px;
+    }
+
+    .cabecalho__esquerda__rotulo {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1335px) {
+    .cabecalho-geral {
+        gap: 5em;
+    }
+}
+
+@media screen and (max-width: 1275px) {
+    .cabecalho-geral {
+        gap: 3em;
+    }
+}
+
+@media screen and (max-width: 1230px) {
+    .cabecalho-geral {
+        gap: 2em;
+    }
+
+    .cabecalho__esquerda__imagem {
+        width: 2em;
+    }
+
+    .cabecalho__esquerda__pesquisar {
+        width: 15em;
+        height: 60%;
+    }
+}
+
+@media screen and (max-width: 1142px) {
+    .cabecalho-geral {
+        gap: 1em;
+    }
+}
+
+@media screen and (max-width: 1126px) {
+    .cabecalho-geral {
+        gap: 0;
+    }
+}
+
+@media screen and (max-width: 1110px) {
+
+    .cabecalho__esquerda__pesquisar {
+        display: none;
+    }
+
+    .cabecalho__direita__icones__lupa {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-inline: 0.8em;
+        cursor: pointer;
+        text-decoration: none;
+        color: var(--fonte-cor-header);
+    }
+
+    .cabecalho__direita__icones__lupa img {
+        width: 1.4em;
+    }
+}
+
+@media screen and (max-width: 874px) {
+    .cabecalho__direita__icones__texto {
+        display: none;
+    }
+
+    .eu {
+        display: none;
+    }
+
+    .solucoes {
+        display: none;
+    }
+
+    .cabecalho__direita__icones__eu {
+        display: block;
+    }
+    
+    .cabecalho__direita__icones__solucoes {
+        display: block;
+    }
+
+    .cabecalho__direita__icones__lupa {
+        padding-inline: 0;
+    }
+}
+
+@media screen and (max-width: 530px) {
+
+    .cabecalho {
+        height: 5em;
+        justify-content: center;
+    }
+
+    .cabecalho__direita__icones__ultimo {
+        display: none;
+    }
+
+    .cabecalho__divisao {
+        display: none;
+    }
+
+    .cabecalho__direita__icones__solucoes {
+        display: none;
+    }
+
+    .cabecalho__direita__icones__tres-pontos {
+        display: block;
+    }
+
+    .cabecalho__direita {
+        gap: 0.5em;
+    }
+}

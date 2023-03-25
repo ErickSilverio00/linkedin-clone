@@ -1,0 +1,35 @@
+@import url("styles/header.css");
+@import url("styles/main-esquerda.css");
+@import url("styles/main-direita.css");
+@import url("styles/footer.css");
+@import url("styles/animacoes.css");
+
+:root {
+    --fonte-principal: "Noto Sans", sans-serif;
+    --cor-de-fundo: #f3f2ef;
+    --branco: #FFFFFF;
+    --azul: #0073B1;
+    --azul-2: #0A66C2;
+    --cor-emprego: #dce6f1;
+    --fonte-cor-header: #878787;
+    --input-cor-pesquisar: #eef3f8;
+    --premium-cor: #915907;
+    --preto: #000000;
+    --borda-sections: 0px 0px 0px 1px rgba(0, 0, 0, 0.08);
+    --cor-linhas: rgba(0, 0, 0, 0.08);
+    --verde: #057642;
+    --roxo: #8344cc99;
+    --roxo-escuro: #665ed0;
+    --fundo-azul: #004182;
+    --fundo-azul-claro: #a8d4ff;
+    --fundo-cinza: #f3f2ef;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+}
