@@ -275,11 +275,11 @@
 
 @media screen and (max-width: 500px) {
     .primeira__section__direita__cima__azul {
-        padding-inline: 0;
+        padding-inline: 2em;
     }
 
     .primeira__section__direita__cima__cinza {
-        padding-inline: 0;
+        padding-inline: 2em;
     }
 
     .primeira__section__direita {
