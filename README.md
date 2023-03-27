@@ -1,7 +1,7 @@
 # Clone Linkedin
 Projeto feito de maneira pessoal, da minha página de perfil do Linkedin.
 
-![Imagem CloneLinkedin](./assets/Clone Linkedin - Readme.png)
+![Imagem CloneLinkedin](./assets/linkedin-clone.png)
   
 # Clone Linkedin
 
