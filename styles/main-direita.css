@@ -22,7 +22,7 @@
 
 .primeira__section__direita__cima {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 0.5em;
     margin-bottom: 1em;
 }

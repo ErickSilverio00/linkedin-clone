@@ -1019,6 +1019,7 @@
 @media screen and (max-width: 580px) {
     .corpo {
         width: 100%;
+        margin-left: 0.6em;
     }
 
     .primeira__section__esquerda__baixo__lapis {
