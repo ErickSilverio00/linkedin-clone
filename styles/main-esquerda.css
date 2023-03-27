@@ -1062,11 +1062,11 @@
 
     .primeira__section__esquerda__baixo__lapis {
         margin: 0 auto;
+        margin-right: 1em;
     }
 
     .quinta__section__esquerda__terceira-linha {
         font-size: 12px;
-        justify-content: end;
     }
 
     .quinta__section__esquerda__terceira-linha__primeiro-link {
